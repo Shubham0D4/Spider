@@ -1,0 +1,52 @@
+=== VPN Server Logs ===
+[2025-05-28T09:37:51.495Z] [INFO] VPN Tunnel Server started on port 3000
+[2025-05-28T09:37:51.498Z] [INFO] Health check: http://localhost:3000/health
+[2025-05-28T09:37:51.499Z] [INFO] Server info: http://localhost:3000/info
+[2025-05-28T09:37:51.500Z] [INFO] Tunnel endpoint: http://localhost:3000/tunnel
+[2025-05-28T09:39:00.751Z] [INFO] VPN Tunnel Server started on port 3000
+[2025-05-28T09:39:00.752Z] [INFO] Health check: http://localhost:3000/health
+[2025-05-28T09:39:00.752Z] [INFO] Server info: http://localhost:3000/info
+[2025-05-28T09:39:00.753Z] [INFO] Tunnel endpoint: http://localhost:3000/tunnel
+[2025-05-28T09:40:16.798Z] [INFO] VPN Tunnel Server started on port 3000
+[2025-05-28T09:40:16.799Z] [INFO] Health check: http://localhost:3000/health
+[2025-05-28T09:40:16.799Z] [INFO] Server info: http://localhost:3000/info
+[2025-05-28T09:40:16.799Z] [INFO] Tunnel endpoint: http://localhost:3000/tunnel
+[2025-05-28T09:40:38.146Z] [INFO] POST /tunnel from ::ffff:127.0.0.1
+[2025-05-28T09:40:38.147Z] [INFO] Received encrypted request. Size: 163 bytes
+[2025-05-28T09:40:38.148Z] [INFO] Request decrypted successfully
+[2025-05-28T09:40:38.148Z] [INFO] Decrypted request: GET https://httpbin.org/get
+[2025-05-28T09:40:38.148Z] [INFO] Executing GET request to: https://httpbin.org/get
+[2025-05-28T09:40:38.148Z] [INFO] Making HTTPS request...
+[2025-05-28T09:40:39.533Z] [INFO] Request completed. Status: 200, Data size: 292 chars
+[2025-05-28T09:40:39.534Z] [INFO] Response encrypted successfully. Size: 597 bytes
+[2025-05-28T09:40:39.537Z] [INFO] Response sent successfully
+[2025-05-28T09:40:39.548Z] [INFO] POST /tunnel from ::ffff:127.0.0.1
+[2025-05-28T09:40:39.548Z] [INFO] Received encrypted request. Size: 162 bytes
+[2025-05-28T09:40:39.548Z] [INFO] Request decrypted successfully
+[2025-05-28T09:40:39.549Z] [INFO] Decrypted request: GET http://httpbin.org/get
+[2025-05-28T09:40:39.549Z] [INFO] Executing GET request to: http://httpbin.org/get
+[2025-05-28T09:40:39.549Z] [INFO] Making HTTP request...
+[2025-05-28T09:40:40.519Z] [INFO] Request completed. Status: 200, Data size: 291 chars
+[2025-05-28T09:40:40.520Z] [INFO] Response encrypted successfully. Size: 596 bytes
+[2025-05-28T09:40:40.521Z] [INFO] Response sent successfully
+[2025-05-28T09:40:40.527Z] [INFO] POST /tunnel from ::ffff:127.0.0.1
+[2025-05-28T09:40:40.528Z] [INFO] Received encrypted request. Size: 236 bytes
+[2025-05-28T09:40:40.528Z] [INFO] Request decrypted successfully
+[2025-05-28T09:40:40.528Z] [INFO] Decrypted request: POST https://httpbin.org/post
+[2025-05-28T09:40:40.528Z] [INFO] Executing POST request to: https://httpbin.org/post
+[2025-05-28T09:40:40.528Z] [INFO] Making HTTPS request...
+[2025-05-28T09:40:40.752Z] [INFO] Request completed. Status: 200, Data size: 546 chars
+[2025-05-28T09:40:40.752Z] [INFO] Response encrypted successfully. Size: 851 bytes
+[2025-05-28T09:40:40.753Z] [INFO] Response sent successfully
+[2025-05-28T09:58:54.885Z] [INFO] Received SIGINT, shutting down gracefully
+[2025-05-28T10:33:50.710Z] [INFO] VPN Tunnel Server started on port 3000
+[2025-05-28T10:33:50.711Z] [INFO] Health check: http://localhost:3000/health
+[2025-05-28T10:33:50.711Z] [INFO] Server info: http://localhost:3000/info
+[2025-05-28T10:33:50.711Z] [INFO] Tunnel endpoint: http://localhost:3000/tunnel
+[2025-05-28T10:33:55.833Z] [INFO] GET /health from ::1
+[2025-05-28T10:33:55.917Z] [INFO] GET /favicon.ico from ::1
+[2025-05-28T10:33:55.918Z] [WARN] 404 - Route not found: GET /favicon.ico
+[2025-05-28T10:34:09.509Z] [INFO] GET /tunnel from ::1
+[2025-05-28T10:34:09.510Z] [WARN] 404 - Route not found: GET /tunnel
+[2025-05-28T10:34:19.536Z] [INFO] GET /info from ::1
+[2025-05-28T10:45:35.385Z] [INFO] Received SIGINT, shutting down gracefully
